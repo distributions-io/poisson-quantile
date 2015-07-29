@@ -4,7 +4,7 @@ Quantile Function
 
 > [Poisson](https://en.wikipedia.org/wiki/Poisson_distribution) distribution [quantile function](https://en.wikipedia.org/wiki/Quantile_function).
 
-The [quantile function](https://en.wikipedia.org/wiki/Quantile_function) for a [Poisson](https://en.wikipedia.org/wiki/Poisson_distribution) random variable returns for `0 <= p < 1` the smallest non-negative integer for which
+The [quantile function](https://en.wikipedia.org/wiki/Quantile_function) for a [Poisson](https://en.wikipedia.org/wiki/Poisson_distribution) random variable returns for `0 <= p <= 1` the smallest non-negative integer for which
 
 <div class="equation" align="center" data-raw-text="F(x;\lambda) \ge p" data-equation="eq:condition">
 	<img src="https://cdn.rawgit.com/distributions-io/poisson-quantile/16c88ec6e70ad25ca4c4c7c1b3f9690ace087cd2/docs/img/eqn.svg" alt="Condition">
