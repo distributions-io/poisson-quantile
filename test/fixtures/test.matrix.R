@@ -1,7 +1,7 @@
 options( digits = 16 )
 library( jsonlite )
 
-lambda = 1
+lambda = 24784
 probs = 0:24 / 25
 y = qpois( probs, lambda )
 

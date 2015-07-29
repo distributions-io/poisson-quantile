@@ -195,7 +195,7 @@ describe( 'distributions-poisson-quantile', function tests() {
 		}
 	});
 
-	it( 'should evaluate the quantle function of the Poisson distribution when provided a typed array', function test() {
+	it( 'should evaluate the quantile function of the Poisson distribution when provided a typed array', function test() {
 		var validationData = require( './fixtures/typedarray.json' ),
 			data,
 			actual,

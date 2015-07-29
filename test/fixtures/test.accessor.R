@@ -2,7 +2,7 @@ options( digits = 16 )
 library( jsonlite )
 
 
-lambda = 1
+lambda = 0.3
 probs = seq( 0, 1, 0.01 )
 y = qpois( probs, lambda )
 
