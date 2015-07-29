@@ -12,4 +12,4 @@ before_install:
   - sudo R CMD INSTALL jsonlite_0.9.15.tar.gz
   - Rscript ./test/fixtures/runner.R
 after_script:
-  - npm run coveralls
+  - npm run codecov
