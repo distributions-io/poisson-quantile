@@ -20,7 +20,7 @@
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "git://github.com/compute-io/poisson-quantile.git"
+    "url": "git://github.com/distributions-io/poisson-quantile.git"
   },
   "keywords": [
     "distributions.io",
@@ -29,10 +29,12 @@
     "statistics",
     "stats",
     "cdf",
-    "inverse"
+    "inverse",
+    "discrete",
+    "counts"
   ],
   "bugs": {
-    "url": "https://github.com/compute-io/poisson-quantile/issues"
+    "url": "https://github.com/distributions-io/poisson-quantile/issues"
   },
   "dependencies": {
     "compute-array-constructors": "^1.0.0",

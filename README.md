@@ -11,7 +11,7 @@ The [quantile function](https://en.wikipedia.org/wiki/Quantile_function) for a [
 	<br>
 </div>
 
-where `F` is the cumulative distribution function (CDF) of a Poisson distribution with mean parameter `lambda`.
+where `F` is the cumulative distribution function (CDF) of a Poisson distribution with mean parameter `lambda > 0`.
 
 
 ## Installation
@@ -79,7 +79,7 @@ The function accepts the following `options`:
 *	__path__: [deepget](https://github.com/kgryte/utils-deep-get)/[deepset](https://github.com/kgryte/utils-deep-set) key path.
 *	__sep__: [deepget](https://github.com/kgryte/utils-deep-get)/[deepset](https://github.com/kgryte/utils-deep-set) key path separator. Default: `'.'`.
 
-A [Poisson](https://en.wikipedia.org/wiki/Poisson_distribution) distribution is a function of 1 parameter(s): `lambda`(mean parameter). By default, `lambda` is equal to `1`. To adjust either parameter, set the corresponding option(s).
+A [Poisson](https://en.wikipedia.org/wiki/Poisson_distribution) distribution is a function of one parameter: `lambda > 0`(mean parameter). By default, `lambda` is equal to `1`. To adjust it, set the corresponding option.
 
 ``` javascript
 var x = [ 0, 0.2, 0.4, 0.6, 0.8, 1 ];
