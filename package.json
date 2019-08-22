@@ -18,6 +18,7 @@
     "codecov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/codecov/coverage --report lcovonly -- -R spec && cat ./reports/codecov/coverage/lcov.info | codecov && rm -rf ./reports/codecov"
   },
   "main": "./lib",
+  "types": "./lib",
   "repository": {
     "type": "git",
     "url": "git://github.com/distributions-io/poisson-quantile.git"
